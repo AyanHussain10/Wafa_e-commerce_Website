@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("img/brgs6.jpg");
+    background-attachment: fixed; 
+}
+
+.banner{
+    height: 550px;
+    max-width: 100%;
+    background-color: rgba(228, 218, 218, 0.247);
+    margin-top: 30px;
+    margin-left: 100px ;
+    margin-right:100px ;
+    margin-bottom: 30px;
+}
+
+.name{
+animation: slide 2s linear forwards;
+position: relative;
+height: 80%;
+top:50px;
+left:32%;
+}
+
+.bar_txt{
+    z-index: 1;
+    position: sticky;
+    top:0px;
+    margin-top: 80px;
+    background-color: rgba(228, 218, 218, 0.911);
+    border-radius: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+article{
+    z-index: 1;
+    margin-top:-42px;
+    position: sticky;
+    top:57px;
+    background-color: rgba(102, 99, 99, 0.911);
+    border-radius: 5px;
+    margin-left: 370px;
+    margin-right: 300px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info ul{
+    display: inline;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.insta a{
+    text-decoration: none;
+    color: black;
+}
+
+.images{
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;  
+    background-color: rgba(49, 47, 47, 0.438);
+    border-radius: 20px;
+}
+
+.images ul{
+    max-width: 35%;
+    position: relative;
+    padding: 2px 1px;
+    left: 100px;
+    top: 20px;
+    border-radius: 5px;
+    background-color: rgb(240, 232, 232);
+    display: inline-block;
+    margin-inline: 50px;
+}
+    
+.img_txt{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(54, 51, 51);
+}
+
+.img_txt2{
+    color: black;  
+}
+
+.old_pr{
+    color: red;
+    text-decoration: line-through;
+    font-weight: 300;
+}
+
+.new_pr{
+    color: black;
+    font-weight: 300;
+}
+
+.call{
+    margin-top: 5px;
+    margin-left: 10px ;
+    margin-right: 10px;
+    height: 300px;
+}
+
+.about{
+    position: relative;
+    background-color: rgba(228, 218, 218, 0.842);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 300px ;
+    margin-right:300px ;
+    
+}
+
+.img_pro{
+    top: 10px;
+    position: relative;
+    height: 300px;
+    border-radius: 50%;
+    left:251px;
+}
+
+.about div{
+    position: relative;
+    top: -17px;
+   text-align: center;
+}
+
+.about div h2{
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.bio{
+    margin-top:-27px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: rgb(32, 29, 29);
+}
+
+.frst_nm{
+    font-weight: bold;
+    font-size: 2em;
+    color:rgb(61, 57, 57);
+}
+
+.call:hover{
+    transform: scale(1.4);
+}
+
+@keyframes slide{
+    from{top: -100px; opacity: 0;}
+    to{top: 50px; opacity: 1;}
+}
+
